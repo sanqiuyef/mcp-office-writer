@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# 虚拟环境（项目专属，不入库；开发环境见 README「开发」节）
+venv/
+
+# 运行时缓存与产物
+image_cache/
+.video_agent/
+.tmp-*/
+*.log
+
+# IDE / 系统
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

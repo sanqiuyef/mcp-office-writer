@@ -1,0 +1,14 @@
+# 跨平台行尾规范：文本文件入库统一 LF，检出按平台
+* text=auto
+
+# Windows 脚本必须 CRLF
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# 二进制
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.pdf binary
+*.png binary
+*.jpg binary
